@@ -1,0 +1,39 @@
+{
+  "fruits": {
+    "Carrot": { "Price": 20 },
+    "Strawberry": { "Price": 15 },
+    "Blueberry": { "Price": 20 },
+    "Orange Tulip": { "Price": 767 },
+    "Tomato": { "Price": 30 },
+    "Corn": { "Price": 40 },
+    "Daffodil": { "Price": 950 },
+    "Watermellon": { "Price": 3000 },
+    "Pumpkin": { "Price": 3500 },
+    "Apple": { "Price": 275 },
+    "Bamboo": { "Price": 4000 },
+    "Coconut": { "Price": 400 },
+    "Cactus": { "Price": 3400 },
+    "Dragon Fruit": { "Price": 4750 },
+    "Mango": { "Price": 6500 },
+    "Grape": { "Price": 10000 },
+    "Mushroom": { "Price": 136000 },
+    "Pepper": { "Price": 7220 },
+    "Cacoa": { "Price": 9928 },
+    "Beanstalk": { "Price": 18050 }
+  },
+
+  "mutations": {
+    "Normal": 1,
+    "Wet": 2,
+    "Moonlit": 2,
+    "Bloodlit": 4,
+    "Plasma": 5,
+    "Frozen": 10,
+    "Golden": 25,
+    "Zombified": 25,
+    "Rainbow": 50,
+    "Shocked": 100,
+    "Celestial": 120,
+    "Disco": 125
+  }
+}
