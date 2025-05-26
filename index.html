@@ -2,25 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Grow a Garden Price Checker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grow A Garden - Plant Value Calculator</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <h1>🌿 Grow a Garden Price Checker</h1>
+    <h1>🌿 Plant Value Calculator</h1>
+
     <div class="form-group">
       <label for="fruit">Select Fruit</label>
       <select id="fruit">
-        <option disabled selected>Choose a fruit</option>
+        <option disabled selected>Loading...</option>
       </select>
     </div>
-    <div class="form-group">
-      <label for="mutation">Select Mutation</label>
-      <select id="mutation">
-        <option disabled selected>Choose a mutation</option>
+
+    <div class="form-group" id="mutations-container">
+      <label>Select Mutations</label>
+      <select class="mutation-select">
+        <option disabled selected>Loading...</option>
       </select>
     </div>
+
+    <button id="add-mutation-btn" type="button">Add another mutation</button>
+
     <div id="result">💰 Select options to see price.</div>
   </div>
 
