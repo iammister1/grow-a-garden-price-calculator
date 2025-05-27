@@ -19,7 +19,11 @@
     "Mushroom": { "Price": 136000 },
     "Pepper": { "Price": 7220 },
     "Cacoa": { "Price": 9928 },
-    "Beanstalk": { "Price": 18050 }
+    "Beanstalk": { "Price": 18050 },
+    "Blood Banana": { "Price": 5415 },
+    "Moon Melon": { "Price": 16000 },
+    "Candy Blossom": { "Price": 100000 },
+    "Moon Blossom": { "Price": 60000 }
   },
 
   "mutations": {
