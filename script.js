@@ -66,7 +66,7 @@ function updatePrice() {
   mutationSelects.forEach(select => {
     const mutation = select.value;
     if (mutation && mutationData[mutation] !== undefined) {
-      totalMultiplier *= mutationData[mutation];
+      totalMultiplier += mutationData[mutation];
     }
   });
 
