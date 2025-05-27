@@ -29,6 +29,7 @@
   "mutations": {
     "Normal": 1,
     "Wet": 2,
+    "Chocolate": 2,
     "Moonlit": 2,
     "Bloodlit": 4,
     "Plasma": 5,
